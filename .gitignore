@@ -1,0 +1,20 @@
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Node / package manager
+node_modules/
+pnpm-lock.yaml
+npm-debug.log*
+yarn-error.log*
+
+# Build output (this package ships plain YAML, so there should be none)
+dist/
+lib/
+
+# Local scratch
+*.local
+.env
+.env.*

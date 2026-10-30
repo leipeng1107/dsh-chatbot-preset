@@ -1,9 +1,30 @@
 {
-  "name": "@local/dsh-chatbot-preset",
+  "name": "dsh-chatbot-preset",
   "version": "1.0.0",
-  "private": true,
+  "description": "A community agent preset for DeepSeek Harness: web search, page fetching, image reading and clarifying questions — with no file or shell access.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "agent-preset",
+    "chatbot"
+  ],
+  "license": "MIT",
+  "author": "leipeng1107",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leipeng1107/dsh-chatbot-preset.git"
+  },
+  "homepage": "https://github.com/leipeng1107/dsh-chatbot-preset#readme",
+  "bugs": {
+    "url": "https://github.com/leipeng1107/dsh-chatbot-preset/issues"
+  },
   "type": "module",
-  "description": "Adds the Chatbot agent preset to the DSH Web preset roster.",
+  "engines": {
+    "node": ">=20"
+  },
   "exports": {
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.svg"
@@ -12,8 +33,14 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
