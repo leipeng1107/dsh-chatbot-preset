@@ -1,0 +1,15 @@
+# Normalize line endings so this package behaves the same on Windows, macOS and Linux.
+* text=auto eol=lf
+
+# Keep these as text with LF regardless of platform.
+*.json    text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.md      text eol=lf
+*.svg     text eol=lf
+LICENSE   text eol=lf
+.gitignore  text eol=lf
+.gitattributes text eol=lf
+
+# npm writes its own lockfile if this repo is ever used directly.
+package-lock.json linguist-generated=true
