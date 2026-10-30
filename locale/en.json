@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chatbot Preset",
+    "description": "Adds the Chatbot agent preset: web search and page fetching, image reading, and clarifying questions, with no file or shell access."
+  }
+}
