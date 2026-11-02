@@ -46,4 +46,4 @@ Pure-config bundle: no `index.js`, no dependencies, no install scripts.
 
 ## 许可证 / License
 
-[MIT](LICENSE) © 2026 leipeng1107
+[MIT](LICENSE) © 2026
